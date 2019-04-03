@@ -1,6 +1,6 @@
 <?php
 
-    namespace phpMl\classificacao;
+    namespace phpml\classificacao;
     use Phpml\Classification\NaiveBayes;
 
     class analise {

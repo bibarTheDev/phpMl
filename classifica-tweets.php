@@ -16,7 +16,7 @@
         simplesmete carrega os textos dos tweets em forma de array,
         nada dmais
     */
-    $dataset = new CsvDataset('datasets/clean_tweets.csv', 1);
+    $dataset = new CsvDataset('datasets/clean_tweets_redz.csv', 1);
 
     $samples = [];
     foreach ($dataset->getSamples() as $value) {
